@@ -1,10 +1,10 @@
 def branch = "production"
-def repo = "git@github.com:sallfarr77/fe-dumbmerch.git"
+def repo = "git@github.com:DitoIhkam/fe-dumbmerch.git"
 def cred = "ssh"
 def dir = "~/jenkins/fe-dumbmerch"
-def server = "sallfarr@116.193.190.5"
+def server = "ditoihkam@103.226.139.168"
 def imagename = "fe-dumbmerch"
-def dockerusername = "sallfarr"
+def dockerusername = "kelompok2"
 
 pipeline {
     agent any
